@@ -1,0 +1,22 @@
+{
+  "name": "github-repo-age",
+  "version": "0.1.0",
+  "description": "A simple command line tool to fetch the age of a GitHub repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "github-repo-age": "./index.js"
+  },
+  "keywords": [
+    "github",
+    "cli"
+  ],
+  "author": "Franco Victorio",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "trae": "^1.4.1"
+  }
+}
